@@ -4,7 +4,7 @@
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.11-orange)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-URECA Undergraduate Research Programme — Nanyang Technological University, 2024-25
+URECA Undergraduate Research Programme, Nanyang Technological University, 2025-2026
 
 ---
 
