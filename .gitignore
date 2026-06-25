@@ -1,0 +1,59 @@
+# ── Virtual environments ──────────────────────────────────────────────────────
+.venv/
+.venv312/
+venv/
+env/
+
+# ── Dataset (download separately from Kaggle / IEEE DataPort) ─────────────────
+data/
+
+# ── Model checkpoints (use Git LFS or host on HuggingFace Hub) ───────────────
+# Uncomment the block below to exclude ALL checkpoints.
+# To keep only final best checkpoints, comment it out and use the per-file
+# exclusions further below.
+# checkpoints/
+
+# Exclude pruning sweep intermediates (not needed for reproducibility)
+checkpoints/resnet18_pruned_10.pt
+checkpoints/resnet18_pruned_20.pt
+checkpoints/resnet18_pruned_30.pt
+checkpoints/resnet18_pruned_40.pt
+checkpoints/resnet18_pruned_50.pt
+checkpoints/resnet18_pruned_60.pt
+checkpoints/resnet18_pruned_70.pt
+checkpoints/resnet18_pruned_80.pt
+checkpoints/resnet18_pruned_90.pt
+
+# Exclude dynamic INT8 checkpoint (can be reproduced with quantize.py)
+checkpoints/resnet18_int8_dynamic.pt
+
+# ── Optuna SQLite databases (JSON results are sufficient) ────────────────────
+*.db
+
+# ── ONNX exports (large, reproducible via benchmark.py) ──────────────────────
+results/onnx/
+
+# ── Paper draft and figures (managed separately) ─────────────────────────────
+report/
+paper_draft.txt
+
+# ── Weights & Biases run logs ─────────────────────────────────────────────────
+wandb/
+
+# ── Python artefacts ─────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ── OS / editor junk ─────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/

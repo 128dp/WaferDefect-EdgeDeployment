@@ -1,0 +1,114 @@
+[
+  {
+    "model": "resnet18",
+    "sparsity_target": 0.0,
+    "sparsity_actual": 0.0,
+    "acc_after_finetune": 0.9287,
+    "f1_after_finetune": 0.9007,
+    "acc_before_finetune": 0.9287,
+    "f1_before_finetune": 0.9007,
+    "fine_tune_epochs": 0
+  },
+  {
+    "model": "resnet18",
+    "sparsity_target": 0.1,
+    "sparsity_actual": 0.1,
+    "acc_before_finetune": 0.9287,
+    "f1_before_finetune": 0.9005,
+    "acc_after_finetune": 0.9371,
+    "f1_after_finetune": 0.9105,
+    "fine_tune_epochs": 10
+  },
+  {
+    "model": "resnet18",
+    "sparsity_target": 0.2,
+    "sparsity_actual": 0.2,
+    "acc_before_finetune": 0.929,
+    "f1_before_finetune": 0.9009,
+    "acc_after_finetune": 0.9353,
+    "f1_after_finetune": 0.9126,
+    "fine_tune_epochs": 10
+  },
+  {
+    "model": "resnet18",
+    "sparsity_target": 0.3,
+    "sparsity_actual": 0.3,
+    "acc_before_finetune": 0.9287,
+    "f1_before_finetune": 0.9,
+    "acc_after_finetune": 0.9306,
+    "f1_after_finetune": 0.908,
+    "fine_tune_epochs": 10
+  },
+  {
+    "model": "resnet18",
+    "sparsity_target": 0.4,
+    "sparsity_actual": 0.4,
+    "acc_before_finetune": 0.9223,
+    "f1_before_finetune": 0.8929,
+    "acc_after_finetune": 0.9337,
+    "f1_after_finetune": 0.9076,
+    "fine_tune_epochs": 10
+  },
+  {
+    "model": "resnet18",
+    "sparsity_target": 0.5,
+    "sparsity_actual": 0.5,
+    "acc_before_finetune": 0.9176,
+    "f1_before_finetune": 0.8907,
+    "acc_after_finetune": 0.9303,
+    "f1_after_finetune": 0.9101,
+    "fine_tune_epochs": 10
+  },
+  {
+    "model": "resnet18",
+    "sparsity_target": 0.6,
+    "sparsity_actual": 0.6,
+    "acc_before_finetune": 0.9049,
+    "f1_before_finetune": 0.8731,
+    "acc_after_finetune": 0.9299,
+    "f1_after_finetune": 0.8989,
+    "fine_tune_epochs": 10
+  },
+  {
+    "model": "resnet18",
+    "sparsity_target": 0.7,
+    "sparsity_actual": 0.7,
+    "acc_before_finetune": 0.8494,
+    "f1_before_finetune": 0.829,
+    "acc_after_finetune": 0.9367,
+    "f1_after_finetune": 0.9132,
+    "fine_tune_epochs": 10
+  },
+  {
+    "model": "resnet18",
+    "sparsity_target": 0.8,
+    "sparsity_actual": 0.8,
+    "acc_before_finetune": 0.6114,
+    "f1_before_finetune": 0.6032,
+    "acc_after_finetune": 0.9334,
+    "f1_after_finetune": 0.9077,
+    "fine_tune_epochs": 10
+  },
+  {
+    "model": "resnet18",
+    "sparsity_target": 0.9,
+    "sparsity_actual": 0.9,
+    "acc_before_finetune": 0.0361,
+    "f1_before_finetune": 0.0246,
+    "acc_after_finetune": 0.9351,
+    "f1_after_finetune": 0.9123,
+    "fine_tune_epochs": 10
+  },
+  {
+    "optimal_recommendation": {
+      "model": "resnet18",
+      "sparsity_target": 0.9,
+      "sparsity_actual": 0.9,
+      "acc_before_finetune": 0.0361,
+      "f1_before_finetune": 0.0246,
+      "acc_after_finetune": 0.9351,
+      "f1_after_finetune": 0.9123,
+      "fine_tune_epochs": 10
+    }
+  }
+]

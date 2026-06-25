@@ -1,0 +1,67 @@
+{
+  "resnet18": {
+    "model": "resnet18",
+    "params_m": 11.18,
+    "flops_g": 0.1489,
+    "size_fp32_mb": 42.72,
+    "size_int8_mb": 42.72,
+    "onnx_size_mb": 42.77,
+    "latency_fp32_ms": 8.715,
+    "latency_int8_ms": 5.531,
+    "latency_onnx_ms": 5.361,
+    "size_reduction_pct": 0.0,
+    "onnx_speedup": 1.63
+  },
+  "resnet34": {
+    "model": "resnet34",
+    "params_m": 21.29,
+    "flops_g": 0.3003,
+    "size_fp32_mb": 81.34,
+    "size_int8_mb": 81.34,
+    "onnx_size_mb": 81.35,
+    "latency_fp32_ms": 11.986,
+    "latency_int8_ms": 11.63,
+    "latency_onnx_ms": 10.091,
+    "size_reduction_pct": 0.0,
+    "onnx_speedup": 1.19
+  },
+  "mobilenet_v2": {
+    "model": "mobilenet_v2",
+    "params_m": 2.23,
+    "flops_g": 0.0266,
+    "size_fp32_mb": 8.75,
+    "size_int8_mb": 8.75,
+    "onnx_size_mb": 8.75,
+    "latency_fp32_ms": 11.588,
+    "latency_int8_ms": 11.567,
+    "latency_onnx_ms": 0.724,
+    "size_reduction_pct": 0.0,
+    "onnx_speedup": 16.01
+  },
+  "efficientnet_b0": {
+    "model": "efficientnet_b0",
+    "params_m": 4.02,
+    "flops_g": 0.0344,
+    "size_fp32_mb": 15.61,
+    "size_int8_mb": 15.68,
+    "onnx_size_mb": 15.93,
+    "latency_fp32_ms": 14.285,
+    "latency_int8_ms": 15.249,
+    "latency_onnx_ms": 1.741,
+    "size_reduction_pct": -0.4,
+    "onnx_speedup": 8.21
+  },
+  "shufflenet_v2": {
+    "model": "shufflenet_v2",
+    "params_m": 0.35,
+    "flops_g": 0.0036,
+    "size_fp32_mb": 1.47,
+    "size_int8_mb": 1.46,
+    "onnx_size_mb": 1.62,
+    "latency_fp32_ms": 9.745,
+    "latency_int8_ms": 10.159,
+    "latency_onnx_ms": 0.184,
+    "size_reduction_pct": 0.7,
+    "onnx_speedup": 52.96
+  }
+}

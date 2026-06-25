@@ -1,0 +1,46 @@
+{
+  "resnet18": {
+    "accuracy": 0.9454022988505747,
+    "macro_f1": 0.9132903038879361,
+    "params_m": 11.18,
+    "size_mb": 42.72,
+    "size_int8_mb": 42.72,
+    "onnx_size_mb": -1.0,
+    "flops_g": 0.1489,
+    "latency_ms": 4.819,
+    "latency_onnx_ms": -1.0
+  },
+  "mobilenet_v2": {
+    "accuracy": 0.9511494252873564,
+    "macro_f1": 0.9302538862069073,
+    "params_m": 2.23,
+    "size_mb": 8.75,
+    "size_int8_mb": 8.75,
+    "onnx_size_mb": -1.0,
+    "flops_g": 0.0266,
+    "latency_ms": 4.912,
+    "latency_onnx_ms": -1.0
+  },
+  "efficientnet_b0": {
+    "accuracy": 0.9527168234064786,
+    "macro_f1": 0.9306514135920829,
+    "params_m": 4.02,
+    "size_mb": 15.61,
+    "size_int8_mb": 15.68,
+    "onnx_size_mb": -1.0,
+    "flops_g": 0.0344,
+    "latency_ms": 7.697,
+    "latency_onnx_ms": -1.0
+  },
+  "shufflenet_v2": {
+    "accuracy": 0.9247648902821317,
+    "macro_f1": 0.8994812165116884,
+    "params_m": 0.35,
+    "size_mb": 1.47,
+    "size_int8_mb": 1.46,
+    "onnx_size_mb": -1.0,
+    "flops_g": 0.0036,
+    "latency_ms": 4.809,
+    "latency_onnx_ms": -1.0
+  }
+}

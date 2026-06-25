@@ -1,0 +1,13 @@
+{
+  "model": "resnet18",
+  "fp32_accuracy": 0.9271,
+  "fp32_macro_f1": 0.902,
+  "fp32_size_mb": 42.72,
+  "fp32_latency_ms": 7.476,
+  "static_accuracy": 0.927,
+  "static_macro_f1": 0.9035,
+  "static_size_mb": 10.79,
+  "static_latency_ms": 19.424,
+  "static_acc_drop": 0.016,
+  "static_size_reduction_pct": 74.7
+}

@@ -1,0 +1,456 @@
+{
+  "model": "resnet18",
+  "baseline_f1": 0.9199,
+  "f1_tolerance": 0.005,
+  "best_trial": 2,
+  "best_params": {
+    "sparsity": 0.7659541126403374,
+    "fine_tune_lr": 4.335281794951564e-05,
+    "fine_tune_epochs": 7,
+    "scheduler": "none"
+  },
+  "best_val_f1": 0.9174,
+  "n_valid_trials": 21,
+  "all_trials": [
+    {
+      "number": 0,
+      "value": 0.8851369585036598,
+      "params": {
+        "sparsity": 0.39963209507789,
+        "fine_tune_lr": 0.0071144760093434225,
+        "fine_tune_epochs": 16,
+        "scheduler": "cosine"
+      },
+      "state": "TrialState.COMPLETE"
+    },
+    {
+      "number": 1,
+      "value": 0.8676698346167935,
+      "params": {
+        "sparsity": 0.14646688973455957,
+        "fine_tune_lr": 0.003967605077052989,
+        "fine_tune_epochs": 14,
+        "scheduler": "none"
+      },
+      "state": "TrialState.COMPLETE"
+    },
+    {
+      "number": 2,
+      "value": 0.9174001184031613,
+      "params": {
+        "sparsity": 0.7659541126403374,
+        "fine_tune_lr": 4.335281794951564e-05,
+        "fine_tune_epochs": 7,
+        "scheduler": "none"
+      },
+      "state": "TrialState.COMPLETE"
+    },
+    {
+      "number": 3,
+      "value": 0.9206389322232056,
+      "params": {
+        "sparsity": 0.4455560149136927,
+        "fine_tune_lr": 7.476312062252303e-05,
+        "fine_tune_epochs": 14,
+        "scheduler": "none"
+      },
+      "state": "TrialState.COMPLETE"
+    },
+    {
+      "number": 4,
+      "value": 0.8908696335812131,
+      "params": {
+        "sparsity": 0.46485598737362877,
+        "fine_tune_lr": 0.0022673986523780395,
+        "fine_tune_epochs": 8,
+        "scheduler": "step"
+      },
+      "state": "TrialState.COMPLETE"
+    },
+    {
+      "number": 5,
+      "value": 0.9142392806051982,
+      "params": {
+        "sparsity": 0.5860358815211507,
+        "fine_tune_lr": 3.247673570627447e-05,
+        "fine_tune_epochs": 6,
+        "scheduler": "step"
+      },
+      "state": "TrialState.COMPLETE"
+    },
+    {
+      "number": 6,
+      "value": 0.9221260089256977,
+      "params": {
+        "sparsity": 0.34369101533869656,
+        "fine_tune_lr": 1.9634341572933304e-05,
+        "fine_tune_epochs": 15,
+        "scheduler": "none"
+      },
+      "state": "TrialState.COMPLETE"
+    },
+    {
+      "number": 7,
+      "value": 0.6583145427527665,
+      "params": {
+        "sparsity": 0.12751081689217472,
+        "fine_tune_lr": 0.00534516611064682,
+        "fine_tune_epochs": 9,
+        "scheduler": "cosine"
+      },
+      "state": "TrialState.PRUNED"
+    },
+    {
+      "number": 8,
+      "value": 0.916474296256145,
+      "params": {
+        "sparsity": 0.5373682234746238,
+        "fine_tune_lr": 3.585612610345396e-05,
+        "fine_tune_epochs": 20,
+        "scheduler": "step"
+      },
+      "state": "TrialState.COMPLETE"
+    },
+    {
+      "number": 9,
+      "value": 0.7515012622022472,
+      "params": {
+        "sparsity": 0.5783199830488681,
+        "fine_tune_lr": 0.00582938454299474,
+        "fine_tune_epochs": 6,
+        "scheduler": "none"
+      },
+      "state": "TrialState.PRUNED"
+    },
+    {
+      "number": 10,
+      "value": 0.8947165945593866,
+      "params": {
+        "sparsity": 0.8610145588497415,
+        "fine_tune_lr": 0.0004748459024928748,
+        "fine_tune_epochs": 20,
+        "scheduler": "none"
+      },
+      "state": "TrialState.PRUNED"
+    },
+    {
+      "number": 11,
+      "value": 0.9175270217704254,
+      "params": {
+        "sparsity": 0.3247655800844307,
+        "fine_tune_lr": 0.0001438473120536652,
+        "fine_tune_epochs": 13,
+        "scheduler": "none"
+      },
+      "state": "TrialState.COMPLETE"
+    },
+    {
+      "number": 12,
+      "value": 0.9257695282139302,
+      "params": {
+        "sparsity": 0.277978239440412,
+        "fine_tune_lr": 1.0350444931367309e-05,
+        "fine_tune_epochs": 16,
+        "scheduler": "none"
+      },
+      "state": "TrialState.COMPLETE"
+    },
+    {
+      "number": 13,
+      "value": 0.9225127722158777,
+      "params": {
+        "sparsity": 0.2539239434980535,
+        "fine_tune_lr": 1.2108572279180814e-05,
+        "fine_tune_epochs": 17,
+        "scheduler": "none"
+      },
+      "state": "TrialState.COMPLETE"
+    },
+    {
+      "number": 14,
+      "value": 0.9206959688607643,
+      "params": {
+        "sparsity": 0.228043078393242,
+        "fine_tune_lr": 1.0314851411704612e-05,
+        "fine_tune_epochs": 17,
+        "scheduler": "none"
+      },
+      "state": "TrialState.COMPLETE"
+    },
+    {
+      "number": 15,
+      "value": 0.919107516237885,
+      "params": {
+        "sparsity": 0.2548383297242163,
+        "fine_tune_lr": 1.0516140083884492e-05,
+        "fine_tune_epochs": 11,
+        "scheduler": "cosine"
+      },
+      "state": "TrialState.COMPLETE"
+    },
+    {
+      "number": 16,
+      "value": 0.9182932241175575,
+      "params": {
+        "sparsity": 0.24333242648582784,
+        "fine_tune_lr": 0.0001732176721741721,
+        "fine_tune_epochs": 18,
+        "scheduler": "none"
+      },
+      "state": "TrialState.COMPLETE"
+    },
+    {
+      "number": 17,
+      "value": 0.9231732776287692,
+      "params": {
+        "sparsity": 0.18312683985410233,
+        "fine_tune_lr": 1.9989830990037535e-05,
+        "fine_tune_epochs": 18,
+        "scheduler": "none"
+      },
+      "state": "TrialState.COMPLETE"
+    },
+    {
+      "number": 18,
+      "value": 0.9235481029026499,
+      "params": {
+        "sparsity": 0.12043959584843478,
+        "fine_tune_lr": 9.811581235264322e-05,
+        "fine_tune_epochs": 12,
+        "scheduler": "cosine"
+      },
+      "state": "TrialState.COMPLETE"
+    },
+    {
+      "number": 19,
+      "value": 0.900823720180643,
+      "params": {
+        "sparsity": 0.11051225257424685,
+        "fine_tune_lr": 0.0005819679453854616,
+        "fine_tune_epochs": 12,
+        "scheduler": "cosine"
+      },
+      "state": "TrialState.PRUNED"
+    },
+    {
+      "number": 20,
+      "value": 0.8825102998208331,
+      "params": {
+        "sparsity": 0.3322493632997888,
+        "fine_tune_lr": 0.0006302052711520857,
+        "fine_tune_epochs": 10,
+        "scheduler": "cosine"
+      },
+      "state": "TrialState.PRUNED"
+    },
+    {
+      "number": 21,
+      "value": 0.8979989364974036,
+      "params": {
+        "sparsity": 0.18644593477406424,
+        "fine_tune_lr": 8.546457592361107e-05,
+        "fine_tune_epochs": 18,
+        "scheduler": "cosine"
+      },
+      "state": "TrialState.PRUNED"
+    },
+    {
+      "number": 22,
+      "value": 0.9198609077804096,
+      "params": {
+        "sparsity": 0.18315403564149643,
+        "fine_tune_lr": 2.2217642434546574e-05,
+        "fine_tune_epochs": 19,
+        "scheduler": "cosine"
+      },
+      "state": "TrialState.COMPLETE"
+    },
+    {
+      "number": 23,
+      "value": 0.9296031196860881,
+      "params": {
+        "sparsity": 0.10561153539579754,
+        "fine_tune_lr": 6.57016828133131e-05,
+        "fine_tune_epochs": 16,
+        "scheduler": "step"
+      },
+      "state": "TrialState.COMPLETE"
+    },
+    {
+      "number": 24,
+      "value": 0.898941580726149,
+      "params": {
+        "sparsity": 0.10027920036016903,
+        "fine_tune_lr": 0.00022034990793445773,
+        "fine_tune_epochs": 15,
+        "scheduler": "step"
+      },
+      "state": "TrialState.PRUNED"
+    },
+    {
+      "number": 25,
+      "value": 0.907957021020078,
+      "params": {
+        "sparsity": 0.28067737940429327,
+        "fine_tune_lr": 7.776018711033565e-05,
+        "fine_tune_epochs": 13,
+        "scheduler": "step"
+      },
+      "state": "TrialState.PRUNED"
+    },
+    {
+      "number": 26,
+      "value": 0.9012859348046885,
+      "params": {
+        "sparsity": 0.17875679999149346,
+        "fine_tune_lr": 0.00029809822061308553,
+        "fine_tune_epochs": 11,
+        "scheduler": "step"
+      },
+      "state": "TrialState.PRUNED"
+    },
+    {
+      "number": 27,
+      "value": 0.9242304611766052,
+      "params": {
+        "sparsity": 0.4018753210777617,
+        "fine_tune_lr": 5.595399159105615e-05,
+        "fine_tune_epochs": 16,
+        "scheduler": "step"
+      },
+      "state": "TrialState.COMPLETE"
+    },
+    {
+      "number": 28,
+      "value": 0.9115957186980437,
+      "params": {
+        "sparsity": 0.6839222724564695,
+        "fine_tune_lr": 6.197422426538984e-05,
+        "fine_tune_epochs": 16,
+        "scheduler": "step"
+      },
+      "state": "TrialState.PRUNED"
+    },
+    {
+      "number": 29,
+      "value": 0.9168763611962991,
+      "params": {
+        "sparsity": 0.4286906210319954,
+        "fine_tune_lr": 4.89881707073053e-05,
+        "fine_tune_epochs": 16,
+        "scheduler": "step"
+      },
+      "state": "TrialState.COMPLETE"
+    },
+    {
+      "number": 30,
+      "value": 0.8257242892072838,
+      "params": {
+        "sparsity": 0.3731842601249378,
+        "fine_tune_lr": 0.0011245341194337085,
+        "fine_tune_epochs": 16,
+        "scheduler": "step"
+      },
+      "state": "TrialState.PRUNED"
+    },
+    {
+      "number": 31,
+      "value": 0.9228537225518701,
+      "params": {
+        "sparsity": 0.4995370593919365,
+        "fine_tune_lr": 0.00011737361994353175,
+        "fine_tune_epochs": 14,
+        "scheduler": "step"
+      },
+      "state": "TrialState.COMPLETE"
+    },
+    {
+      "number": 32,
+      "value": 0.9101149950706238,
+      "params": {
+        "sparsity": 0.305680134807846,
+        "fine_tune_lr": 0.00010629137164166781,
+        "fine_tune_epochs": 15,
+        "scheduler": "cosine"
+      },
+      "state": "TrialState.PRUNED"
+    },
+    {
+      "number": 33,
+      "value": 0.9178614693783014,
+      "params": {
+        "sparsity": 0.4103114032355927,
+        "fine_tune_lr": 3.0294232397864883e-05,
+        "fine_tune_epochs": 13,
+        "scheduler": "step"
+      },
+      "state": "TrialState.COMPLETE"
+    },
+    {
+      "number": 34,
+      "value": 0.897794452124062,
+      "params": {
+        "sparsity": 0.15812176230445676,
+        "fine_tune_lr": 0.0002506979162540445,
+        "fine_tune_epochs": 17,
+        "scheduler": "cosine"
+      },
+      "state": "TrialState.PRUNED"
+    },
+    {
+      "number": 35,
+      "value": 0.9094594626421224,
+      "params": {
+        "sparsity": 0.3862224429839838,
+        "fine_tune_lr": 5.568783322854682e-05,
+        "fine_tune_epochs": 14,
+        "scheduler": "step"
+      },
+      "state": "TrialState.PRUNED"
+    },
+    {
+      "number": 36,
+      "value": 0.9179685540515363,
+      "params": {
+        "sparsity": 0.21480243994495823,
+        "fine_tune_lr": 1.673581921436662e-05,
+        "fine_tune_epochs": 12,
+        "scheduler": "step"
+      },
+      "state": "TrialState.COMPLETE"
+    },
+    {
+      "number": 37,
+      "value": 0.9228248552863256,
+      "params": {
+        "sparsity": 0.13668536197956355,
+        "fine_tune_lr": 4.091023995357035e-05,
+        "fine_tune_epochs": 15,
+        "scheduler": "cosine"
+      },
+      "state": "TrialState.COMPLETE"
+    },
+    {
+      "number": 38,
+      "value": 0.9152714787627754,
+      "params": {
+        "sparsity": 0.46729110032443477,
+        "fine_tune_lr": 2.7164689741654033e-05,
+        "fine_tune_epochs": 8,
+        "scheduler": "step"
+      },
+      "state": "TrialState.COMPLETE"
+    },
+    {
+      "number": 39,
+      "value": 0.8813160418656438,
+      "params": {
+        "sparsity": 0.28951676370498347,
+        "fine_tune_lr": 0.00034371867646824396,
+        "fine_tune_epochs": 19,
+        "scheduler": "none"
+      },
+      "state": "TrialState.PRUNED"
+    }
+  ]
+}

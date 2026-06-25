@@ -1,0 +1,80 @@
+[
+  {
+    "model": "resnet34",
+    "n_seeds": 3,
+    "epochs_per_seed": 40,
+    "seed_results": [
+      {
+        "seed": 42,
+        "test_acc": 0.9409,
+        "test_macro_f1": 0.9078
+      },
+      {
+        "seed": 123,
+        "test_acc": 0.9476,
+        "test_macro_f1": 0.9223
+      },
+      {
+        "seed": 456,
+        "test_acc": 0.9467,
+        "test_macro_f1": 0.9272
+      }
+    ],
+    "test_acc_mean": 0.9451,
+    "test_acc_std": 0.003,
+    "test_f1_mean": 0.9191,
+    "test_f1_std": 0.0082
+  },
+  {
+    "model": "efficientnet_b0",
+    "n_seeds": 3,
+    "epochs_per_seed": 40,
+    "seed_results": [
+      {
+        "seed": 42,
+        "test_acc": 0.944,
+        "test_macro_f1": 0.9205
+      },
+      {
+        "seed": 123,
+        "test_acc": 0.9506,
+        "test_macro_f1": 0.9235
+      },
+      {
+        "seed": 456,
+        "test_acc": 0.9522,
+        "test_macro_f1": 0.9276
+      }
+    ],
+    "test_acc_mean": 0.9489,
+    "test_acc_std": 0.0035,
+    "test_f1_mean": 0.9239,
+    "test_f1_std": 0.0029
+  },
+  {
+    "model": "mobilenet_v2",
+    "n_seeds": 3,
+    "epochs_per_seed": 40,
+    "seed_results": [
+      {
+        "seed": 42,
+        "test_acc": 0.9411,
+        "test_macro_f1": 0.9161
+      },
+      {
+        "seed": 123,
+        "test_acc": 0.9453,
+        "test_macro_f1": 0.924
+      },
+      {
+        "seed": 456,
+        "test_acc": 0.9461,
+        "test_macro_f1": 0.9214
+      }
+    ],
+    "test_acc_mean": 0.9442,
+    "test_acc_std": 0.0022,
+    "test_f1_mean": 0.9205,
+    "test_f1_std": 0.0033
+  }
+]
